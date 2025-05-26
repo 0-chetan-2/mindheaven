@@ -1,0 +1,455 @@
+2025-05-18 14:04:06,101 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:04:06,102 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:04:06,105 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:04:07,774 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:04:07,781 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:04:16,270 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:04:16] "GET / HTTP/1.1" 200 -
+2025-05-18 14:04:17,332 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:04:17] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-18 14:04:17,334 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:04:17] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-18 14:04:17,784 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:04:17] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:04:17,830 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:04:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 14:04:32,561 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:04:32] "POST /clear_conversation HTTP/1.1" 200 -
+2025-05-18 14:14:12,376 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:14:12,376 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:14:12,380 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:14:13,960 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:14:13,984 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:14:28,790 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:14:28] "GET / HTTP/1.1" 200 -
+2025-05-18 14:14:29,650 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:14:29] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-18 14:14:29,681 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:14:29] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-18 14:14:29,889 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:14:29] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:14:29,926 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:14:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 14:18:33,559 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:18:33,560 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:18:33,562 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:18:35,182 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:18:35,190 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:18:58,946 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:18:58] "GET / HTTP/1.1" 200 -
+2025-05-18 14:18:59,288 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:18:59] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-18 14:18:59,313 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:18:59] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-18 14:18:59,442 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:18:59] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:25:54,664 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:25:54,664 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:25:54,666 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:25:56,321 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:25:56,328 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:26:02,462 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:02] "GET / HTTP/1.1" 200 -
+2025-05-18 14:26:03,303 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:03] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-18 14:26:03,342 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:03] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-18 14:26:03,415 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 14:26:03,415 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:03] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:26:10,338 - __main__ - ERROR - Error in mood analysis: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 14:26:10,405 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:10] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-05-18 14:26:15,164 - __main__ - ERROR - Error in mood analysis: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 14:26:15,181 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:15] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-05-18 14:26:17,863 - __main__ - ERROR - Error in mood analysis: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-05-18 14:26:17,887 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:26:17] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2025-05-18 14:30:13,459 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:30:13,459 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:30:13,461 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:30:15,428 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:30:15,435 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:30:21,263 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:30:21] "GET / HTTP/1.1" 200 -
+2025-05-18 14:30:21,524 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:30:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-18 14:30:21,524 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:30:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-18 14:30:21,606 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:30:21] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:30:27,370 - __main__ - INFO - Processing message: happy
+2025-05-18 14:30:27,370 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "happy"}]
+2025-05-18 14:30:30,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:30:30,477 - openai._base_client - INFO - Retrying request to /chat/completions in 0.384137 seconds
+2025-05-18 14:30:31,246 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:30:31,246 - openai._base_client - INFO - Retrying request to /chat/completions in 0.841990 seconds
+2025-05-18 14:30:32,528 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:30:32,531 - __main__ - ERROR - OpenAI rate limit exceeded
+2025-05-18 14:30:32,538 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:30:32] "POST /chat HTTP/1.1" 200 -
+2025-05-18 14:37:38,648 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:37:38,648 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:37:38,651 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:37:40,929 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:37:40,934 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:37:48,928 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:37:48] "GET / HTTP/1.1" 200 -
+2025-05-18 14:37:49,074 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:37:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-18 14:37:49,075 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:37:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-18 14:37:49,179 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:37:49] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:37:54,987 - __main__ - INFO - Processing message: happy
+2025-05-18 14:37:54,988 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "happy"}]
+2025-05-18 14:37:56,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:37:56,427 - openai._base_client - INFO - Retrying request to /chat/completions in 0.438502 seconds
+2025-05-18 14:37:57,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:37:57,222 - openai._base_client - INFO - Retrying request to /chat/completions in 0.958081 seconds
+2025-05-18 14:37:58,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:37:58,606 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 1 seconds (Attempt 1/3)
+2025-05-18 14:37:59,607 - __main__ - INFO - Processing message: happy
+2025-05-18 14:37:59,607 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "happy"}]
+2025-05-18 14:38:00,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:38:00,047 - openai._base_client - INFO - Retrying request to /chat/completions in 0.378907 seconds
+2025-05-18 14:38:00,843 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:38:00,844 - openai._base_client - INFO - Retrying request to /chat/completions in 0.752876 seconds
+2025-05-18 14:38:02,167 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:38:02,168 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 2 seconds (Attempt 2/3)
+2025-05-18 14:38:04,169 - __main__ - INFO - Processing message: happy
+2025-05-18 14:38:04,170 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "happy"}]
+2025-05-18 14:38:04,493 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:38:04,494 - openai._base_client - INFO - Retrying request to /chat/completions in 0.453194 seconds
+2025-05-18 14:38:05,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:38:05,325 - openai._base_client - INFO - Retrying request to /chat/completions in 0.762278 seconds
+2025-05-18 14:38:06,444 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:38:06,445 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 4 seconds (Attempt 3/3)
+2025-05-18 14:38:10,446 - __main__ - ERROR - Max retries exceeded for message: happy
+2025-05-18 14:38:10,451 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:38:10] "POST /chat HTTP/1.1" 200 -
+2025-05-18 14:43:26,356 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:43:26,357 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:43:26,359 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:43:28,453 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:43:28,458 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:43:36,169 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:43:36] "GET / HTTP/1.1" 200 -
+2025-05-18 14:43:36,388 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:43:36] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-18 14:43:36,416 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:43:36] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-18 14:43:36,522 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:43:36] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:43:41,728 - __main__ - INFO - Processing message: hello
+2025-05-18 14:43:41,728 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "hello"}]
+2025-05-18 14:43:43,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:43,886 - openai._base_client - INFO - Retrying request to /chat/completions in 0.444384 seconds
+2025-05-18 14:43:44,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:44,685 - openai._base_client - INFO - Retrying request to /chat/completions in 0.981559 seconds
+2025-05-18 14:43:46,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:46,403 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 1 seconds (Attempt 1/3)
+2025-05-18 14:43:47,404 - __main__ - INFO - Processing message: hello
+2025-05-18 14:43:47,405 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "hello"}]
+2025-05-18 14:43:47,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:47,885 - openai._base_client - INFO - Retrying request to /chat/completions in 0.394134 seconds
+2025-05-18 14:43:48,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:48,685 - openai._base_client - INFO - Retrying request to /chat/completions in 0.965563 seconds
+2025-05-18 14:43:50,125 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:50,126 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 2 seconds (Attempt 2/3)
+2025-05-18 14:43:52,128 - __main__ - INFO - Processing message: hello
+2025-05-18 14:43:52,128 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "hello"}]
+2025-05-18 14:43:52,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:52,480 - openai._base_client - INFO - Retrying request to /chat/completions in 0.427850 seconds
+2025-05-18 14:43:53,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:53,238 - openai._base_client - INFO - Retrying request to /chat/completions in 0.937437 seconds
+2025-05-18 14:43:54,504 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:43:54,505 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 4 seconds (Attempt 3/3)
+2025-05-18 14:43:58,507 - __main__ - ERROR - Max retries exceeded for message: hello
+2025-05-18 14:43:58,512 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:43:58] "POST /chat HTTP/1.1" 200 -
+2025-05-18 14:44:05,182 - __main__ - INFO - Processing message: fine
+2025-05-18 14:44:05,183 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "fine"}]
+2025-05-18 14:44:06,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:06,261 - openai._base_client - INFO - Retrying request to /chat/completions in 0.469635 seconds
+2025-05-18 14:44:07,084 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:07,085 - openai._base_client - INFO - Retrying request to /chat/completions in 0.855687 seconds
+2025-05-18 14:44:08,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:08,272 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 1 seconds (Attempt 1/3)
+2025-05-18 14:44:09,272 - __main__ - INFO - Processing message: fine
+2025-05-18 14:44:09,273 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "fine"}]
+2025-05-18 14:44:09,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:09,625 - openai._base_client - INFO - Retrying request to /chat/completions in 0.386122 seconds
+2025-05-18 14:44:10,345 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:10,346 - openai._base_client - INFO - Retrying request to /chat/completions in 0.876775 seconds
+2025-05-18 14:44:11,562 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:11,563 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 2 seconds (Attempt 2/3)
+2025-05-18 14:44:13,563 - __main__ - INFO - Processing message: fine
+2025-05-18 14:44:13,564 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "fine"}]
+2025-05-18 14:44:13,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:13,885 - openai._base_client - INFO - Retrying request to /chat/completions in 0.443074 seconds
+2025-05-18 14:44:14,764 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:14,765 - openai._base_client - INFO - Retrying request to /chat/completions in 0.813364 seconds
+2025-05-18 14:44:15,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:44:15,907 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 4 seconds (Attempt 3/3)
+2025-05-18 14:44:19,909 - __main__ - ERROR - Max retries exceeded for message: fine
+2025-05-18 14:44:19,914 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:44:19] "POST /chat HTTP/1.1" 200 -
+2025-05-18 14:47:32,281 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 14:47:32,282 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 14:47:32,285 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 14:47:34,386 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 14:47:34,395 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 14:47:37,429 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:47:37] "GET / HTTP/1.1" 200 -
+2025-05-18 14:47:37,565 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:47:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-18 14:47:37,568 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:47:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-18 14:47:37,718 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:47:37] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 14:47:42,455 - __main__ - INFO - Processing message: hello
+2025-05-18 14:47:42,456 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "hello"}]
+2025-05-18 14:47:44,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:44,072 - openai._base_client - INFO - Retrying request to /chat/completions in 0.430585 seconds
+2025-05-18 14:47:44,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:44,880 - openai._base_client - INFO - Retrying request to /chat/completions in 0.853418 seconds
+2025-05-18 14:47:46,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:46,150 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 1 seconds (Attempt 1/3)
+2025-05-18 14:47:47,151 - __main__ - INFO - Processing message: hello
+2025-05-18 14:47:47,152 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "hello"}]
+2025-05-18 14:47:47,588 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:47,589 - openai._base_client - INFO - Retrying request to /chat/completions in 0.457525 seconds
+2025-05-18 14:47:48,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:48,390 - openai._base_client - INFO - Retrying request to /chat/completions in 0.762129 seconds
+2025-05-18 14:47:49,507 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:49,508 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 2 seconds (Attempt 2/3)
+2025-05-18 14:47:51,509 - __main__ - INFO - Processing message: hello
+2025-05-18 14:47:51,510 - __main__ - INFO - Sending messages to OpenAI: [{"role": "system", "content": "You are MindHeaven, a supportive AI mental health assistant."}, {"role": "user", "content": "hello"}]
+2025-05-18 14:47:51,869 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:51,869 - openai._base_client - INFO - Retrying request to /chat/completions in 0.485442 seconds
+2025-05-18 14:47:52,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:52,709 - openai._base_client - INFO - Retrying request to /chat/completions in 0.962416 seconds
+2025-05-18 14:47:54,004 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-18 14:47:54,005 - __main__ - WARNING - RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}. Retrying in 4 seconds (Attempt 3/3)
+2025-05-18 14:47:58,006 - __main__ - ERROR - Max retries exceeded for message: hello
+2025-05-18 14:47:58,012 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 14:47:58] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:04:59,278 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 15:04:59,278 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 15:04:59,282 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 15:04:59,878 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 15:04:59,883 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 15:05:04,658 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:05:04] "GET / HTTP/1.1" 200 -
+2025-05-18 15:05:05,519 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:05:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-18 15:05:05,523 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:05:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-18 15:05:05,664 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:05:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 15:05:05,667 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:05:05] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 15:05:10,407 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:05:10] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:05:15,503 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:05:15] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:14:02,496 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 15:14:02,497 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 15:14:02,501 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 15:14:03,442 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 15:14:03,464 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 15:14:06,065 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:06] "GET / HTTP/1.1" 200 -
+2025-05-18 15:14:06,251 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-18 15:14:06,255 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-18 15:14:06,412 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:06] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 15:14:27,517 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\mental-health-chatbot\\frontend\\node_modules\\regenerate-unicode-properties\\Script\\mindheaven\\app.py', reloading
+2025-05-18 15:14:27,636 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 15:14:28,970 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 15:14:28,976 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 15:14:36,469 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 15:14:36,470 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 15:14:36,473 - werkzeug - INFO -  * Restarting with stat
+2025-05-18 15:14:37,028 - werkzeug - WARNING -  * Debugger is active!
+2025-05-18 15:14:37,033 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-18 15:14:41,264 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:41] "GET / HTTP/1.1" 200 -
+2025-05-18 15:14:42,070 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:42] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-18 15:14:42,125 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:42] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-18 15:14:42,273 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:42] "GET /mood_history HTTP/1.1" 200 -
+2025-05-18 15:14:42,278 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 15:14:52,629 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:14:52] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:15:04,358 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:15:04] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:15:24,534 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:15:24] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:15:32,715 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:15:32] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:15:38,234 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:15:38] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:15:55,779 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:15:55] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:18:41,722 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:18:41] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:19:00,223 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:19:00] "POST /chat HTTP/1.1" 200 -
+2025-05-18 15:19:19,579 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 15:19:19] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:10:13,580 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 15:10:13,580 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 15:10:13,582 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:10:14,344 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:10:14,352 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:11:12,888 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:12] "GET / HTTP/1.1" 200 -
+2025-05-26 15:11:13,616 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:13] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-26 15:11:13,617 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:13] "GET /static/script.js HTTP/1.1" 200 -
+2025-05-26 15:11:14,157 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:14] "GET /mood_history HTTP/1.1" 200 -
+2025-05-26 15:11:14,290 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 15:11:20,523 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:20] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:11:23,902 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:23] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:11:32,520 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:32] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:11:37,096 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:37] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:11:40,152 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:40] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:11:44,017 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:11:44] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:12:03,728 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:12:03] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:12:12,998 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:12:12] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:12:22,614 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:12:22] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:12:33,490 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:12:33] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:22:14,765 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 15:22:14,766 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 15:22:14,769 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:22:16,241 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:22:16,249 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:22:21,267 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:22:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 15:22:21,271 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:22:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 15:22:26,152 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:26,153 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:26,158 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:22:26] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:22:31,221 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:31,222 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:31,225 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:22:31] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:22:43,246 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:43,247 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:43,253 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:22:43] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:22:49,209 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:49,210 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:22:49,213 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:22:49] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:23:03,616 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:23:03,617 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:23:03,621 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:23:03] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:23:13,339 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:23:13,340 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:23:13,344 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:23:13] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:24:01,590 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:24:01,716 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:24:03,216 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:24:03,222 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:24:18,240 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:24:18,349 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:24:19,888 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:24:19,896 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:24:22,121 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:24:22,224 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:24:23,742 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:24:23,748 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:24:35,690 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 15:24:35,691 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 15:24:35,693 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:24:37,370 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:24:37,376 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:24:43,030 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:24:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 15:24:43,034 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:24:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 15:24:49,123 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:24:49,124 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:24:49,131 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:24:49] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:24:54,293 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:24:54,294 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:24:54,298 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:24:54] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:25:02,665 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:25:02] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:25:20,246 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:25:20,248 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:25:20,252 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:25:20] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:26:10,527 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:10,529 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:10,536 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:26:10] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:26:19,252 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:19,254 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:19,260 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:26:19] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:26:29,898 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:29,899 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:29,903 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:26:29] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:26:47,537 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:47,539 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:26:47,546 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:26:47] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:27:20,157 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:27:20,266 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:27:21,866 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:27:21,871 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:27:27,956 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:27:28,055 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:27:29,644 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:27:29,651 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:27:56,560 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:27:56,666 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:27:58,225 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:27:58,231 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:28:18,483 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 15:28:18,484 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 15:28:18,486 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:28:20,096 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:28:20,102 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:28:23,939 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:28:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 15:28:23,943 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:28:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 15:28:31,770 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:31,772 - __main__ - ERROR - OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:32,070 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:32,071 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:32,075 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:28:32] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:28:37,950 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:37,951 - __main__ - ERROR - OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:38,249 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:38,250 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:28:38,253 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:28:38] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:28:54,930 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:28:54] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:29:00,204 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:29:00] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:29:09,536 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:09,537 - __main__ - ERROR - OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:10,010 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:10,011 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:10,016 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:29:10] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:29:20,382 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:20,384 - __main__ - ERROR - OpenAI crisis check failed: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:20,889 - openai - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:20,891 - __main__ - ERROR - Error in OpenAI API call: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-05-26 15:29:20,898 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:29:20] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:29:27,975 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:29:27] "POST /chat HTTP/1.1" 200 -
+2025-05-26 15:30:06,497 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:30:06,603 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:30:08,325 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:30:08,331 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:30:26,199 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 15:30:26,200 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 15:30:26,202 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:30:27,619 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:30:27,624 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:30:37,834 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:30:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 15:30:37,835 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:30:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 15:31:39,680 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 15:31:39,680 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 15:31:39,682 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 15:31:41,115 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 15:31:41,120 - werkzeug - INFO -  * Debugger PIN: 427-515-468
+2025-05-26 15:31:48,874 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:31:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 15:31:48,876 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:31:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 15:32:37,297 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:32:37] "GET / HTTP/1.1" 200 -
+2025-05-26 15:32:37,335 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:32:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-05-26 15:32:37,339 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 15:32:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-26 15:33:59,599 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Admin\\Desktop\\mindheaven\\mindheaven\\app.py', reloading
+2025-05-26 15:33:59,699 - werkzeug - INFO -  * Restarting with stat

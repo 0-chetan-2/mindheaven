@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MindHeaven Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <!-- Add Chart.js for mood tracking visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app-container">
+        <header>
+            <h1>MindHeaven</h1>
+            <p>A safe space to share your thoughts and feelings</p>
+        </header>
+        
+        <div id="main-content">
+            <div id="chat-container">
+                <div id="chat-header">
+                    <h2>Your Conversation</h2>
+                    <button id="clear-chat">New Conversation</button>
+                </div>
+                <div id="chat-box"></div>
+                <div id="mood-indicator">
+                    <div id="current-mood">
+                        <span>Current Mood:</span>
+                        <div id="mood-badge">Analyzing...</div>
+                    </div>
+                </div>
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="How are you feeling today?" autocomplete="off" />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            
+            <div id="insights-panel">
+                <div id="mood-history-container" class="mood-history-hidden">
+                    <h2>Your Mood History</h2>
+                    <canvas id="mood-chart"></canvas>
+                </div>
+                <div id="mood-explanation">
+                    <h3>Mood Insights</h3>
+                    <p id="mood-explanation-text">Share how you're feeling to get insights.</p>
+                </div>
+                <div id="resources">
+                    <h3>Helpful Resources</h3>
+                    <ul>
+                        <li><a href="https://www.snehi.org/" target="_blank">Snehi Suicide Prevention Helpline: 91-22-2772 6771/6773</a></li>
+                        <li><a href="https://icallhelpline.org/" target="_blank">iCALL Helpline: 9152987821</a></li>
+                        <li><a href="https://www.mhrdnats.gov.in/" target="_blank">Kiran Mental Health Rehabilitation Helpline: 1800-599-0019</a></li>
+                        <li><a href="https://112.gov.in/" target="_blank">Emergency Services (India): 112</a></li>
+                        <li><a href="https://www.vandrevalafoundation.com/" target="_blank">Vandrevala Foundation: 9999666555 or 1860-2662-345</a></li>
+                        <li><a href="https://www.fortishealthcare.com/india/mental-health-and-behavioural-sciences" target="_blank">Fortis Stress Helpline: 08376804102</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Load script only once at the end of body -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
