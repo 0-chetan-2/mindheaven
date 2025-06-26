@@ -3,7 +3,7 @@ import json
 import logging
 import random
 from datetime import datetime, timedelta
-from flask import Flask, request, jsonify, session, render_template, Blueprint
+from flask import Flask, request, jsonify, session, render_template
 from flask_cors import CORS
 from flask_session import Session
 import re
@@ -16,8 +16,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Initialize OpenAI client
-openai.api_key = os.getenv('OPENAI_API_KEY')
+# Initialize OpenAI client with the new API structure
+client = openai.OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Setup logging
 logging.basicConfig(
@@ -39,15 +39,15 @@ logger.addHandler(handler)
 app = Flask(__name__)
 CORS(app, resources={
     r"/*": {
-        "origins": ["https://yourdomain.com"],
+        "origins": ["http://localhost:5000", "http://127.0.0.1:5000"],
         "methods": ["GET", "POST"],
         "allow_headers": ["Content-Type"]
     }
 })
-app.secret_key = os.environ.get('SECRET_KEY', 'default_key_for_dev')
+app.secret_key = os.environ.get('SECRET_KEY', 'dev_secret_key_change_in_production')
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_PERMANENT'] = True
-app.config['SESSION_COOKIE_SECURE'] = True
+app.config['SESSION_COOKIE_SECURE'] = False  # Set to True in production with HTTPS
 app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=1)
 Session(app)
@@ -212,7 +212,7 @@ CRISIS_RESPONSES = [
 ALL_PATTERNS = {**COMMON_PATTERNS, **EMOTIONAL_PATTERNS}
 
 limiter = Limiter(
-    get_remote_address,
+    key_func=get_remote_address,
     app=app,
     default_limits=["200 per day", "50 per hour"]
 )
@@ -248,8 +248,8 @@ def get_response(message):
             {"role": "user", "content": message}
         ]
         
-        # Get response from OpenAI
-        response = openai.ChatCompletion.create(
+        # Get response from OpenAI using the new API
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=conversation,
             max_tokens=150,
@@ -260,7 +260,7 @@ def get_response(message):
         reply = response.choices[0].message.content
         
         # Analyze mood using OpenAI
-        mood_analysis = openai.ChatCompletion.create(
+        mood_response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "Analyze the emotional tone of the following message and respond with a JSON object containing 'mood' (one of: positive, negative, neutral, anxious, depressed, angry), 'intensity' (1-10), and 'explanation'."},
@@ -271,7 +271,15 @@ def get_response(message):
         )
         
         # Parse mood analysis
-        mood_data = json.loads(mood_analysis.choices[0].message.content)
+        try:
+            mood_data = json.loads(mood_response.choices[0].message.content)
+        except json.JSONDecodeError:
+            # Fallback if JSON parsing fails
+            mood_data = {
+                "mood": "neutral",
+                "intensity": 5,
+                "explanation": "Unable to parse mood analysis from AI response."
+            }
         
         return {
             "reply": reply,
@@ -305,8 +313,9 @@ def get_response(message):
         }
 
 def openai_crisis_check(message):
+    """Check if message indicates crisis using OpenAI"""
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a mental health assistant. If the following message indicates a crisis or risk of self-harm or suicide, respond with 'true'. Otherwise, respond with 'false'."},
@@ -321,65 +330,71 @@ def openai_crisis_check(message):
         logger.error(f"OpenAI crisis check failed: {e}")
         return False
 
-# Route to serve the main page
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-# Function to detect crisis indicators in a message
 def detect_crisis(text):
+    """Function to detect crisis indicators in a message"""
     text_lower = text.lower() if isinstance(text, str) else ""
     for keyword in CRISIS_KEYWORDS:
         if keyword in text_lower:
             return True
     return False
 
+# Route to serve the main page
+@app.route('/')
+def index():
+    return render_template('index.html')
+
 # Route to handle chat messages
 @app.route('/chat', methods=['POST'])
 @limiter.limit("10 per minute")
 def chat():
-    user_msg = request.json.get('message', '').strip()
-    
-    if not user_msg:
-        return jsonify({"reply": "Please say something!"})
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No JSON data provided"}), 400
+            
+        user_msg = data.get('message', '').strip()
+        
+        if not user_msg:
+            return jsonify({"reply": "Please say something!"})
 
-    # Initialize session data if needed
-    if 'history' not in session:
-        session['history'] = []
-    if 'mood_history' not in session:
-        session['mood_history'] = []
-    
-    # Limit session history size to prevent unbounded growth
-    if len(session['history']) > 50:
-        session['history'] = session['history'][-50:]
-    if len(session['mood_history']) > 50:
-        session['mood_history'] = session['mood_history'][-50:]
-    
-    # Detect if this is a crisis message
-    is_crisis = detect_crisis(user_msg)
-    
-    # Add user message to history
-    session['history'].append({"role": "user", "content": user_msg})
-    
-    # Generate response using pattern matching
-    response_data = get_response(user_msg)
-    
-    # Add response to history
-    session['history'].append({"role": "assistant", "content": response_data["reply"]})
-    
-    # Add mood to history
-    session['mood_history'].append({
-        "timestamp": datetime.now().isoformat(),
-        "message": user_msg,
-        "mood": response_data["mood_analysis"]["mood"],
-        "intensity": response_data["mood_analysis"]["intensity"]
-    })
-    
-    # Save session
-    session.modified = True
-    
-    # Return the response
-    return jsonify(response_data)
+        # Initialize session data if needed
+        if 'history' not in session:
+            session['history'] = []
+        if 'mood_history' not in session:
+            session['mood_history'] = []
+        
+        # Limit session history size to prevent unbounded growth
+        if len(session['history']) > 50:
+            session['history'] = session['history'][-50:]
+        if len(session['mood_history']) > 50:
+            session['mood_history'] = session['mood_history'][-50:]
+        
+        # Add user message to history
+        session['history'].append({"role": "user", "content": user_msg})
+        
+        # Generate response
+        response_data = get_response(user_msg)
+        
+        # Add response to history
+        session['history'].append({"role": "assistant", "content": response_data["reply"]})
+        
+        # Add mood to history
+        session['mood_history'].append({
+            "timestamp": datetime.now().isoformat(),
+            "message": user_msg,
+            "mood": response_data["mood_analysis"]["mood"],
+            "intensity": response_data["mood_analysis"]["intensity"]
+        })
+        
+        # Save session
+        session.modified = True
+        
+        # Return the response
+        return jsonify(response_data)
+        
+    except Exception as e:
+        logger.error(f"Error in chat endpoint: {str(e)}")
+        return jsonify({"error": "An error occurred processing your message"}), 500
 
 # Route to get mood history
 @app.route('/mood_history', methods=['GET'])
@@ -457,12 +472,8 @@ def server_error(e):
 @app.after_request
 def add_header(response):
     if 'Cache-Control' not in response.headers:
-        response.headers['Cache-Control'] = 'public, max-age=31536000'
+        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
     return response
 
-if app.debug:
-    from flask_debugtoolbar import DebugToolbarExtension
-    toolbar = DebugToolbarExtension(app)
-
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
